@@ -1,5 +1,5 @@
 # simple_social_network
-Simple social network made in Laravel 7
+Simple social network made in Laravel v8.54
 
 Project is done for purpose of applying to a job position for a junior PHP developer
 
