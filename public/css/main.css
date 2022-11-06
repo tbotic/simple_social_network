@@ -1,0 +1,67 @@
+@import "bootstrap.css";
+
+
+/* general styles */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* component styles */
+.header {
+    padding: 0 0 2rem 0;
+    background-color: rgb(223, 232, 248);
+    color: black;
+}
+
+.btn-header {
+    color: #222;
+    background-color: #fff;
+    border-color: #222;
+  }
+  
+  .btn-header:hover {
+    color: #222;
+    background-color: #fff;
+    border-color: #222;
+  }
+  
+  .btn-header:focus,
+  .btn-header.focus {
+    color: #222;
+    background-color: #fff;
+    border-color: #222;
+    box-shadow: none !important;
+  }
+  
+  .btn-header.disabled,
+  .btn-header:disabled {
+    color: #222;
+    background-color: #fff;
+    border-color: #222;
+  }
+  
+  .btn-header:not(:disabled):not(.disabled):active,
+  .btn-header:not(:disabled):not(.disabled).active,
+  .show > .btn-header.dropdown-toggle {
+    color: #222;
+    background-color: #fff;
+    border-color: #222;
+  }
+  
+  .btn-header:not(:disabled):not(.disabled):active:focus,
+  .btn-header:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-header.dropdown-toggle:focus {
+    box-shadow: 0 !important;
+  }
+
+  .post-counter {
+    flex: 1 0 100%;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
